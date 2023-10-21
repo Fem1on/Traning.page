@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Rob-R";
+  src: local("Fonts"), url(fonts/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rob-R";
+}
+
+body {
+  background-color: hsl(235, 18%, 26%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  position: relative;
+  border-radius: 30px;
+  width: 850px;
+  height: 600px;
+  min-height: 400px;
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+.form-container {
+  padding: 20px;
+}
+/*
+# Colors
+
+### Primary
+
+- Tomato: hsl(4, 100%, 67%)
+
+### Neutral
+
+- Dark Slate Grey: hsl(234, 29%, 20%)
+- Charcoal Grey: hsl(235, 18%, 26%)
+- Grey: hsl(231, 7%, 60%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Roboto](https://fonts.google.com/specimen/Roboto)
+- Weights: 400, 700
+*/
