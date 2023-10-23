@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
-    <title>Stay updated!</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta />
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container" id="container">
-      <div class="form-container" id="Stay updated!">
           <div class="right">
             <h1>Stay updated!</h1>
-            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <p>Join 60,000+ product managers receiving  monthly <br> updates on:</p>
             <ul>
               <li>Product discovery and building what matters</li>
               <li>Measuring to ensure updates are a success</li>
@@ -20,13 +20,29 @@
             </ul>
             <form>
                 <label for="email">Email address</label>
-                <input type="email@company.com">
+                <input type="email@company.com" placeholder="email@company.com">
                 <button type="submit">Subscribe to monthly newsletter</button>
             </form>
-            <img src="/images/illustration-sign-up-desktop.svg" alt="">
+            
           </div>
         </form>
-      </div>
+        <div class="left">
+          <img src="/images/illustration-sign-up-desktop.svg" alt="icon-container">
+        </div>
     </div>
+    <div class="container-2 hide">
+      <img src="./images/icon-success.svg" class="icon-container-2">
+      <h1>
+        Thanks for subscribing!
+      </h1>
+      <p>
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+</p>
+<button>
+  Dismiss message
+</button>
+    </div>
+    <script src="/index.js"></script>
   </body>
 </html>
