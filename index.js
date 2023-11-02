@@ -6,3 +6,8 @@ form.addEventListener("submit", (e) => {
   container_1.classList.add("hide");
   container_2.classList.remove("hide");
 });
+
+function back() {
+  container_1.classList.remove("hide");
+  container_2.classList.add("hide");
+}
